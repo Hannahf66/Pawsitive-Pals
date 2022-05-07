@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pawsitive Pals</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!-- styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+ <!-- Animate on scroll AOS CSS CDN -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+ <!-- Animate on scroll AOS JS CDN -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--content goes here-->
+
+    <!-- begin courasel-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/carousel/1.jpg"
+            class="d-block w-100"
+            alt="Create a Bond"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Create a Bond</h5>
+            <p>Spend quality time with our animals and build unbreakable bonds.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/2.jpg"
+            class="d-block w-100"
+            alt="Veterinary Help"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Veterinary Help</h5>
+            <p>Get help from our top Veterinarians.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/3.jpg"
+            class="d-block w-100"
+            alt="Rescue"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Rescue</h5>
+            <p>Help rescue animals and give them a better life that they deserve.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://www.youtube.com/embed/kk57tfBUoJo"
+        title="youtube video"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+
+    <!-- end cursel-->
+
+    <body>
+      <!-- font awesome row start -->
+      <div class="container-fluid text-center fa-row">
+        <div class="row">
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <i class="fa-solid fa-dog fa-row-icon"></i><br />
+          <a href="#">  Dogs </a>
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <i class="fa-solid fa-cat fa-row-icon"></i><br />
+            <a href="#">  Cats </a>
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <i class="fa-solid fa-paw fa-row-icon"></i><br />
+            <a href="#"> Pet Services </a>
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <i class="fa-solid fa-user-plus fa-row-icon"></i><br />
+            <a href="#"> Getting Plugged In </a> 
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <i class="fa-solid fa-shoe-prints fa-row-icon"></i><br />
+            <a href="#"> Our Journey </a>
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <i class="fa-solid fa-binoculars fa-row-icon"></i><br />
+            <a href="#"> Discovery </a>
+          </div>
+        </div>
+      </div>
+      <!-- font awesome row end-->
+
+      <!-- first description begin -->
+      <div class="container volunteer-div google-font" data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <img
+              src="/images/general/volunteer.jpg"
+              class="img-responsive volunteer-img"
+              alt="Image Placeholder"
+            />
+            <h2>Volunteering</h2>
+            <p>
+                
+                There's just something about volunteering that makes you feel good inside. You're putting in time and effort while not asking for anything in return, so of course you should feel good! Caring enough to help out the community is a reward on its own.
+            </p>
+
+            <p>
+        Dogs are social creatures and they love being around people. A shelter dog's exposure to people is usually only the volunteers who care for them each day. They associate the volunteers with things such as love, food, and playtime and even in shelters, some dogs’ happiness just can’t be contained. Genuinely happy dogs, such as Goldendoodles and Labradors, stay bursting balls of joy regardless of the situation and can always make you smile. However, even the most timid dogs often open up to the volunteers over time and get excited to see them each day! Having a scared dog open up to you is one of the most rewarding feelings.
+
+            </p>
+
+            
+
+            <div>
+              <a href="form.html" class="btn btn-outline-primary btn-volunteer"
+                >Volunteer Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- first description end -->
+
+      <!-- gallery begins -->
+      <div class="container text-center">
+        <div class="row">
+          <div
+            class="col-6 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+          >
+          <a data-fancybox href="/images/fancybox/originals/1.jpeg">
+            <img
+              src="/images/fancybox/thumbs/1.jpeg"
+              class="img-responsive img-fancybox"
+              alt="flip-left"
+            />
+          </a>
+          </div>
+          <div
+            class="col-6 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+          >
+          <a data-fancybox href="/images/fancybox/originals/2.jpeg">
+            <img
+              src="/images/fancybox/thumbs/2.jpeg"
+              class="img-responsive img-fancybox"
+              alt="flip-left"
+            />
+          </a>
+          </div>
+          <div
+            class="col-6 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+          >
+          <a data-fancybox href="/images/fancybox/originals/3.jpeg">
+            <img
+              src="/images/fancybox/thumbs/3.jpeg"
+              class="img-responsive img-fancybox"
+              alt="flip-left"
+            />
+          </a>
+          </div>
+          <div
+            class="col-6 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+          >
+          <a data-fancybox href="/images/fancybox/originals/4.jpeg">
+            <img
+              src="/images/fancybox/thumbs/4.jpeg"
+              class="img-responsive img-fancybox"
+              alt="flip-left"
+            />
+          </a>
+          </div>
+        </div>
+        <div class="row gallery-button">
+          <div class="col-12 text-center">
+            <a href="gallery.html" class="btn btn-outline-primary btn-gallery"
+              >View Gallery</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- gallery ends -->
+      <!-- second description section begins -->
+      <div class="container contact-div google-font" data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <img
+              src="/images/general/volunteer.jpg"
+              class="img-responsive contact-img"
+              alt="Image Placeholder"
+            />
+            <h2>Contact Us!</h2>
+            <p>
+                Pawsitive Pals is an open and positive space for you and your pets. We strive to have an open communication environment full of free spirits and unique personalities. There are many opportunities and chances to get involved with us. We would love to expand our family as far as possible.
+
+            </p>
+            <p>
+                Please contact us if you have any interests in volunteering, adopting, or looking for a career opportunity. We would be happy to help you embark on a new journey with us! We are always looking forward to seeing new faces around us and want to reach out to you. Send us your questions and concerns and we will give you the help you need.  
+            </p>
+           
+            <p>
+              <strong>
+               Join our team and become a part of the family. We want you here!
+              </strong>
+            </p>
+
+            <div>
+              <a href="#footerInfo" class="btn btn-outline-primary btn-contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second description section ends -->
+
+      <!-- members begin -->
+      <div class="container text-center staff" id="staff">
+        <div class="row">
+          <div
+            class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          >
+            <img
+              src="/images/staff/thumbs/1.jpeg"
+              alt="Sara Hiller"
+              class="cropped"
+              data-aos="zoom-in"
+            />
+            <br />
+            <blockquote>
+                I have been with Positive Pals for 5 years now and absolutely love it. They are a family to me and I wouldn’t change it for the world.
+
+
+              <cite>Sara Hiller</cite>
+            </blockquote>
+          </div>
+          <div
+            class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          >
+            <img
+              src="/images/staff/thumbs/2.jpeg"
+              alt="Molly Millenbruch"
+              class="cropped"
+              data-aos="zoom-in"
+            />
+            <br />
+            <blockquote>
+              I love volunteering here. It is so rewarding and their facility is the best in the business
+
+
+              <cite>Molly Millenbruch</cite>
+            </blockquote>
+          </div>
+          <div
+            class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          >
+            <img
+              src="/images/staff/thumbs/3.jpeg"
+              alt="Zach Burmeisser"
+              class="cropped"
+              data-aos="zoom-in"
+            />
+            <br />
+            <blockquote>
+              Being apart of the Positive Pal family has changed my life in all the best ways possible. I adopted my German Shepherd from them 2 years ago and it was the best decision I have ever made
+
+              <cite>Zach Burmeisser</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- members end -->
+
+       <!--content goes here-->
+    <div id="bottom"></div>
+
+  <script src="/js/scripts.js"></script>
+  
+  </body>
+</html>
